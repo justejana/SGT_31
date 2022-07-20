@@ -23,7 +23,7 @@ public class NestedIf {
             } else {
                 System.out.println(("Odd number");
             }
-
+//Koments
 
         }
     }
