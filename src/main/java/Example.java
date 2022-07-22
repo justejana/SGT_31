@@ -1,6 +1,6 @@
 public class Example {
     public static void main(String[] args){
-        System.out.println("Hello World");
+        System.out.println("homework.Hello World");
 // Declaration of variable x
         int x;
 //Initialization of variable x
