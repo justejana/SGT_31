@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StringExamples {
     public static void main(String[] args) {
 
@@ -62,5 +64,19 @@ public class StringExamples {
         String longValue = "100000000000000";
 
         System.out.println(Integer.parseInt(intValue) + 4);
+
+        //Trim method
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter password(qwert*)");
+        //Noņemt space un samazinaat burtus
+        String pswd = scanner.nextLine().trim().toLowerCase();
+
+        if (pswd.equals("qwerty")) {
+            System.out.println("Password correct");
+        } else {
+            System.out.println("Incorrect password");
+        }
     }
 }
