@@ -23,7 +23,7 @@ public class RockPaperScissors {
         if (player2.equals("rock") && player1.equals("scissors") || player2.equals("scissors") && player1.equals("paper") || player2.equals("paper") && player1.equals("rock")) {
             System.out.println("Player 2 wins");
         }
-            System.out.println("Do you want to check your personal number again? y/n");
+            System.out.println("Do you want to play again? y/n");
             runAgain = scanner.next().charAt(0);
             scanner.nextLine();
         }
